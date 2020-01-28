@@ -5,8 +5,20 @@ html {
     overflow-y: scroll;
 }
 
+nav {
+    text-align: center;
+    font-size: 24px;
+    color:  #fff;
+    font-family: Courier New;
+}
+
 body {
     margin: 8px auto;
-    background: #fff;
+    background-color: linen;
     width: 700px;
+}
+
+
+.footer{
+    text-align: center;
 }
