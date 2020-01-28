@@ -1,8 +1,3 @@
-:root{
-    --primary-color:rbga();
-    --overlayColor:rbga();
-    --menu-speed: 0.75s;
-}
 
 html {
     overflow-y: scroll;

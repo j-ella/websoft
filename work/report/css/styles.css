@@ -122,12 +122,12 @@
     color: #fff;
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
     text-decoration: none;
   }
   
   .btn:hover {
-    opacity: 0.7;
+    opacity: 0.5;
   }
   
   /* MENU STYLES */
