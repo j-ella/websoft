@@ -1,6 +1,9 @@
-/*
- * Comments are written as C++ style. 
- */
+:root{
+    --primary-color:rbga();
+    --overlayColor:rbga();
+    --menu-speed: 0.75s;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -11,14 +14,22 @@ nav {
     color:  #fff;
     font-family: Courier New;
 }
+#content {
+    border: 1px solid black;
+    background-color: #fefeee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
 
 body {
+    font-family: 'Raleway', sans-serif;
     margin: 8px auto;
-    background-color: linen;
     width: 700px;
 }
 
-
-.footer{
+.bottom-footer{
     text-align: center;
 }
