@@ -53,11 +53,7 @@
           return response.json();
         })
         .then((myJson) => {
-          console.log(myJson);
-        });
-
-
-      // EXTRACT VALUE FOR HTML HEADER. 
+          // EXTRACT VALUE FOR HTML HEADER. 
       // ('Book ID', 'Book Name', 'Category' and 'Price')
       var col = [];
       for (var i = 0; i < myJson.length; i++) {
@@ -96,6 +92,9 @@
       var divContainer = document.getElementById("showData");
       divContainer.innerHTML = "";
       divContainer.appendChild(table);
+      
+          
+        });
     }
   </script>
 </body>
