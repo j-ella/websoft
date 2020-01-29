@@ -32,9 +32,10 @@
     <div class="container showcase-inner">
          <div class="textblock">
             <h1>Swedish Municipality - Schools</h1>
-    <div id="content">
+        <div id="content">
         <p>Lets fetch and display some data. Click refresh to display the data! </p>
         <input type="button" class="btn" onclick="CreateTableFromJSON" value="Refresh" />
+        <p id="showData"></p>
       </div>
         </div>
     </div>
@@ -50,7 +51,6 @@
         .then((myJson) => {
             console.log(myJson);
         });
-
 
         // EXTRACT VALUE FOR HTML HEADER. 
         // ('Book ID', 'Book Name', 'Category' and 'Price')
