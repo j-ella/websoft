@@ -1,0 +1,30 @@
+html {
+    overflow-y: scroll;
+}
+
+nav {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: Courier New;
+}
+
+#content {
+    border: 1px solid black;
+    background-color: #fefeee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 8px auto;
+    width: 700px;
+}
+
+.bottom-footer {
+    text-align: center;
+}
