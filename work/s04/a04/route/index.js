@@ -16,11 +16,14 @@ router.get("/about", (req, res) => {
     res.send("About something");
 });
 router.get("/lotto", (req, res) => {
-    var numbers = [];
+    let data = {};
+
+    data.numbers = [];
+
     for (var i = 0; i < 7; i++) {
-        numbers.push(Math.floor(Math.random() * 35));
+        data.numbers[i] = Math.floor(Math.random() * 35) + 1;
     }
-    res.send("7 random numbers between 1-35: " + numbers);
+    res.render("lotto", data);
 });
 
 module.exports = router;

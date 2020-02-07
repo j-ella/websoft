@@ -88,6 +88,8 @@ body {
 .reportshowcase:before {
     content: '';
     background: url(../img/pexels-photo-533923.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -318,7 +320,7 @@ td {
     border: solid 1px #DDD;
     border-collapse: collapse;
     padding: 2px 3px;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
 }
