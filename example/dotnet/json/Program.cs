@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Collections.Generic ;
+using System.Collections.Generic;
 
 namespace jsonBank
 {
@@ -19,6 +19,7 @@ namespace jsonBank
             Console.WriteLine("Show all accounts (and add 1 money to their balance)");
             foreach (var account in accounts) {
                 Console.WriteLine(account);
+                
                 account.Balance += 1;
             }
 
@@ -51,7 +52,8 @@ namespace jsonBank
                 return json;
             }
         }
-
+        
+        
         static void SaveAccounts(IEnumerable<Account> accounts)
         {
             String file = "../data/account.json";
