@@ -48,20 +48,17 @@
                         }
                     }
 
-                    // CREATE DYNAMIC TABLE.
+        
                     var table = document.createElement("table");
 
-                    // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
-
-                    var tr = table.insertRow(-1); // TABLE ROW.
+      
+                    var tr = table.insertRow(-1); 
 
                     for (var i = 0; i < col.length; i++) {
-                        var th = document.createElement("th"); // TABLE HEADER.
+                        var th = document.createElement("th"); 
                         th.innerHTML = col[i];
                         tr.appendChild(th);
                     }
-
-                    // ADD JSON DATA TO THE TABLE AS ROWS.
                     for (var i = 0; i < schools.length; i++) {
 
                         tr = table.insertRow(-1);
@@ -71,8 +68,6 @@
                             tabCell.innerHTML = schools[i][col[j]];
                         }
                     }
-
-                    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
                     var divContainer = document.getElementById("showData");
                     divContainer.innerHTML = "";
                     divContainer.appendChild(table);

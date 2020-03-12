@@ -1,9 +1,8 @@
-#duck {
-  width: 428px;
-  height: 428px;
-  background-image: url(../img/front-end.png);
-  background-size: 428px;
-  display: inline-block;
-  position: relative;
-
+.duck {
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/front-end.png);
+    background-size: 100px;
+    display: inline-block;
+    position: absolute;
 }

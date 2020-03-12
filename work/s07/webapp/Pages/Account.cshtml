@@ -1,0 +1,30 @@
+﻿@page
+@model AccountModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Websoft Banking</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+    <div><b>Accounts</b><br /></div>  
+    <table class="table table-bordered table-responsive table-hover">  
+    <tr>  
+        <th>Number </th>  
+        <th>Balance </th>  
+        <th>Label </th>  
+        <th>Owner</th>  
+    </tr>  
+    @foreach (var d in Model.Accounts)  
+    {  
+        <tr>  
+            <td>@d.Number</td>  
+            <td>@d.Balance</td>  
+            <td>@d.Label</td>  
+            <td>@d.Owner</td>   
+  
+        </tr>  
+    }  
+    </table> 

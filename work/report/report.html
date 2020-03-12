@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/duck.css">
 
     <title>Ella's</title>
 </head>
@@ -40,8 +41,8 @@
                 <article>
                     <header>
                         <h1>Websoft course reports</h1>
+                        <div id="duck" class="duck"></div>
                     </header>
-
                     <section>
                         <h2>S01</h2>
                         <p> <b>Question:</b> Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?</p>
@@ -227,22 +228,32 @@
                     <section>
                         <h2>S09</h2>
                         <p><b>Question: </b>Elaborate on a few (3-5) different security issues or concerns, from your own experience, related to web application security and relate them to the OWASP top ten.</p>
-                        <p><b>Answer: </b></p>
+                        <p><b>Answer: </b>I think one of the most common security concerns are "Sensitive data exposure" and its also one concern of mine. I wouldn't want my data to be exposed for everyone to access. Attackers may steal or use the data in
+                            order to perform credit card fraud and identity theft. It hasn't happend to me, yet. Sensitive data exposure is on the OWASP top 10 which is used for developers in order to minimize the risks.</p>
+                        <p>Another concern of mine is broken authentication. If the application functions related to authentication is incorrectly implemented, attackers can gain access to the password, session tokens etc. I wouldn't want my account to be
+                            hijacked since the account may contain messages, images, memories etc I woulnd't want to lose. The attackers can also post and use the accounts and pretend to be "me". </p>
+                        <p>Another concern is injection which can lead to dataloss, corruption, denial of access. Attackers can also take complete control over the application due to injection. Imagine a business gets attacked and an injection is made on
+                            the database, this will affect all the users/customers as well. This is one of the most known security issues on OWASP.</p>
                         <p><b>Question: </b>Summarize by providing your own guidelines to a new web programmer on the topic “The essential guidelines to follow to create secure web applications”.</p>
-                        <p><b>Answer: </b></p>
+                        <p><b>Answer: </b>Guidelines to create secure web applications:</p>
+                        <p>1. Keep yourself updated and follow web applications security techniques. </p>
+                        <p>The best way to stay safe against hacker is to be aware of popular and new insecurities.</p>
+                        <p>2. Always have a back-up for your data. </p>
+                        <p>If you've got a security breach and you need to restore your data, it would be catastrophic if you havent backed up your data and you need to start all over again. </p>
+                        <p>3. Ask professionals to "hack your web application".</p>
+                        <p>4. Scan your website often for vulnerablities</p>
+                        <p>5. Use a web application security platforms</p>
+                        <p>6. Strong password policy and encryption for login</p>
                         <p><b>Question: </b>What is your TIL for this course section?</p>
-                        <p><b>Answer: </b></p>
+                        <p><b>Answer: </b>This course section, I've learned about the common security risks in a web application, how the attackers are using them and how to prevent it. I've also learned about OWASP top 10 security risks.</p>
                     </section>
 
-                    <section>
-                        <h2>S10</h2>
-                        <p>Here is the text for this section.</p>
-                    </section>
 
                 </article>
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="js/duck.js"></script>
 </body>
 
 </html>
